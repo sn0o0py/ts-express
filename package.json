@@ -1,0 +1,32 @@
+{
+  "name": "ts-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "commander": "^2.9.0",
+    "express": "^4.14.1",
+    "inversify": "^3.1.0",
+    "inversify-binding-decorators": "^3.0.0",
+    "ts-express": "^1.0.0",
+    "typescript": "^2.1.6"
+  },
+  "devDependencies": {
+    "@types/body-parser": "0.0.34",
+    "@types/commander": "^2.3.31",
+    "@types/express": "^4.0.35",
+    "tslint": "^4.5.0"
+  },
+  "scripts": {
+    "start": "npm run tsc",
+    "lint": "tslint --exclude=./node_modules/** ./src/**/*.ts",
+    "tsc": "tsc"
+  },
+  "bin": {
+    "ts-express": "dist/cli.js"
+  },
+  "author": "Tomer Buhadana",
+  "license": "ISC"
+}
