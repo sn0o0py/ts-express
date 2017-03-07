@@ -1,7 +1,6 @@
 
-import { getApp } from '../appContainer';
-import { getParametersFromRequest } from './decorators-utils/getParametersFromRequest';
-import { IMiddleware } from '../typings';
+import { getApp } from '../../appContainer';
+import { getParametersFromRequest } from './/getParametersFromRequest';
 import * as express from 'express';
 
 
@@ -10,8 +9,9 @@ import {
     ClassMiddlewareDescriptor,
     MiddlewareDescriptor,
     ClassicMiddlewareDescriptor,
-    validteParameterFunction
-} from '../typings';
+    validteParameterFunction,
+    IMiddleware
+} from '../../typings';
 
 export function createMethod(method: string, ...validateParameters: validteParameterFunction[]) {
     return function (url: string) {
