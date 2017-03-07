@@ -27,6 +27,5 @@
   "bin": {
     "ts-express": "dist/cli.js"
   },
-  "author": "Tomer Buhadana",
-  "license": "ISC"
+  "author": "sn0o0py"
 }
