@@ -24,5 +24,3 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
-# the compiled code is unneccessery
-dist
