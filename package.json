@@ -20,7 +20,7 @@
     "tslint": "^4.5.0"
   },
   "scripts": {
-    "start": "npm run tsc",
+    "prepublish": "npm run tsc",
     "lint": "tslint --exclude=./node_modules/** ./src/**/*.ts",
     "tsc": "tsc"
   },
