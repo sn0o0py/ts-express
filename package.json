@@ -4,6 +4,10 @@
   "description": "",
   "main": "./dist/index.js",
   "typings": "./dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sn0o0py/ts-express.git"
+  },
   "dependencies": {
     "body-parser": "^1.16.1",
     "commander": "^2.9.0",
